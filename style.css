@@ -11,7 +11,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .slide {
@@ -24,6 +24,7 @@ body {
   display: block;
   animation: fade 1s;
   overflow-y: auto;
+  max-height: 100vh;
 }
 
 /* ✅ Make images responsive */
